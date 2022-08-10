@@ -22,7 +22,7 @@ function Calculator() {
       <div className="operand cell">+</div>
       <div className="num zero cell">0</div>
       <div className="point cell">.</div>
-      <div className="equals cell">=</div>
+      <div className="equals operand cell">=</div>
     </div>
   );
 }
