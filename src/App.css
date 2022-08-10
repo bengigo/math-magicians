@@ -1,0 +1,42 @@
+body {
+  background-color: hwb(34 40% 17%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ui {
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: auto 100px 100px 100px 100px 100px 100px;
+}
+
+.cell {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.output {
+  background-color: white;
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 50px;
+  align-items: flex-end;
+}
+
+.zero {
+    grid-column: span 2;
+}
