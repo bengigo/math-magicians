@@ -1,5 +1,7 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
 import Calculator from './components/Calculator';
 
 class App extends React.Component {
@@ -9,7 +11,15 @@ class App extends React.Component {
   }
 
   render() {
-    return <Calculator />;
+    return (
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="calculator" element={<Calculator />} />
+          {/* <Route path='quote' element={<Quote />} /> */}
+        </Routes>
+      </div>
+    );
   }
 }
 
