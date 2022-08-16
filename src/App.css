@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-size: large;
+  color: rgb(52, 46, 46);
 }
 
 /* header and main position on every page */
@@ -28,24 +29,34 @@ nav {
   margin: auto 5px;
   padding-left: 5px;
   color: black;
+  font-size:x-large;
+
+}
+
+.link:nth-child(1) {
+  color: tomato;
 }
 
 .link:nth-child(2) {
-  border-left: 1px solid black;
+  border-left: 2px solid brown;
+  color: #89d8b3;
 }
 
 .link:nth-child(3) {
-  border-left: 1px solid black;
+  border-left: 2px solid brown;
+  color: plum;
 }
 
 h1 {
   font-size: 60px;
+  background: -webkit-linear-gradient(rgb(77, 56, 77), #86d9b2, #a075a0, tomato);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* home page */
 
 .welcome-section {
-  /* background-color: #858693; */
   margin-top: 20px;
   display: flex;
   flex-direction: column;
