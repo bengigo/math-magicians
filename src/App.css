@@ -71,7 +71,6 @@ h2 {
   display: grid;
   justify-content: center;
   align-content: center;
-  /* min-height: 100vh; */
   grid-template-columns: repeat(4, 160px);
   grid-template-rows: auto 100px 100px 100px 100px 100px;
 }
@@ -103,4 +102,11 @@ h2 {
 
 .zero {
   grid-column: span 2;
+}
+
+/* quote page */
+
+.quote {
+  position: absolute;
+  top: 50%;
 }
