@@ -49,8 +49,6 @@ h1 {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-
-  /* justify-content: space-between; */
 }
 
 h2 {
@@ -61,11 +59,19 @@ h2 {
   padding: 30px 0;
 }
 
+/* calculator page */
+
+.calculator-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
 .ui {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   grid-template-columns: repeat(4, 160px);
   grid-template-rows: auto 100px 100px 100px 100px 100px;
 }
