@@ -6,6 +6,7 @@
 ## Built With
 
 - React
+- CSS3
 
 ## Getting Started
 
