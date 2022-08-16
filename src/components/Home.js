@@ -8,7 +8,7 @@ const Home = () => (
       <nav>
         <Link to="/">Home</Link>
         <Link to="/calculator">Calculator</Link>
-        <Link to="/quotes">Quotes</Link>
+        <Link to="/quote">Quote</Link>
       </nav>
     </header>
     <h2>Welcome to our page!</h2>
