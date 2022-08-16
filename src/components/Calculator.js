@@ -11,16 +11,16 @@ const Calculator = () => {
 
   const { next, total, operation } = state;
   return (
-    <div>
+    <main>
       <header>
         <h1>Math Magicians</h1>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/calculator">Calculator</Link>
-          <Link to="/quote">Quote</Link>
+          <Link className="link" to="/">Home</Link>
+          <Link className="link" to="/calculator">Calculator</Link>
+          <Link className="link" to="/quote">Quote</Link>
         </nav>
       </header>
-      <main>
+      <div className="calculator-section">
         <h2>Let&apos;s do some math!</h2>
 
         <div className="ui">
@@ -91,8 +91,8 @@ const Calculator = () => {
             =
           </button>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 };
 
