@@ -71,8 +71,8 @@ h2 {
   display: grid;
   justify-content: center;
   align-content: center;
-  grid-template-columns: repeat(4, 160px);
-  grid-template-rows: auto 100px 100px 100px 100px 100px;
+  grid-template-columns: repeat(4, 130px);
+  grid-template-rows: auto 80px 80px 80px 80px 80px;
 }
 
 .cell {
@@ -92,7 +92,7 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  height: 100px;
+  height: 90px;
   align-items: flex-end;
 }
 
