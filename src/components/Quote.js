@@ -12,8 +12,8 @@ const Quote = () => (
       </nav>
     </header>
     <p>
-      Mathematics is not about numbers, equations, computations, or algorithms:
-      it is about understanding. -William Paul Thurston
+      Mathematics is a language developed by humanity to understand nature and
+      use it for its own benefit. -Pınar Ezgi Kadı
     </p>
   </>
 );
