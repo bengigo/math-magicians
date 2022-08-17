@@ -8,7 +8,7 @@ const Quote = () => (
       <nav>
         <Link className="link" to="/">Home</Link>
         <Link className="link" to="/calculator">Calculator</Link>
-        <Link className="link" to="/quote">Quote</Link>
+        <Link className="link active" to="/quote">Quote</Link>
       </nav>
     </header>
     <div className="quote-section">

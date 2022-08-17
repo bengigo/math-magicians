@@ -6,7 +6,7 @@ const Home = () => (
     <header>
       <h1>Math Magicians</h1>
       <nav>
-        <Link className="link" to="/">
+        <Link className="link active" to="/">
           Home
         </Link>
         <Link className="link" to="/calculator">

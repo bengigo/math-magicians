@@ -32,6 +32,10 @@ nav {
   font-size: x-large;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 .link:nth-child(1) {
   color: tomato;
 }

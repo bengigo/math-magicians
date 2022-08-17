@@ -16,7 +16,7 @@ const Calculator = () => {
         <h1>Math Magicians</h1>
         <nav>
           <Link className="link" to="/">Home</Link>
-          <Link className="link" to="/calculator">Calculator</Link>
+          <Link className="link active" to="/calculator">Calculator</Link>
           <Link className="link" to="/quote">Quote</Link>
         </nav>
       </header>
