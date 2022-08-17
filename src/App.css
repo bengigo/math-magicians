@@ -4,15 +4,95 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: large;
+  color: rgb(52, 46, 46);
+}
+
+/* header and main position on every page */
+main {
+  margin: 30px;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  margin: auto 5px;
+  padding-left: 5px;
+  color: black;
+  font-size: x-large;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.link:nth-child(1) {
+  color: tomato;
+}
+
+.link:nth-child(2) {
+  border-left: 2px solid brown;
+  color: #89d8b3;
+}
+
+.link:nth-child(3) {
+  border-left: 2px solid brown;
+  color: plum;
+}
+
+h1 {
+  font-size: 60px;
+  background:
+    -webkit-linear-gradient(
+      rgb(77, 56, 77),
+      #86d9b2,
+      #a075a0,
+      tomato
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* home page */
+
+.welcome-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.welcome {
+  padding: 30px 0;
+}
+
+/* calculator page */
+
+.calculator-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .ui {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 160px);
-  grid-template-rows: auto 100px 100px 100px 100px 100px;
+  grid-template-columns: repeat(4, 130px);
+  grid-template-rows: auto 80px 80px 80px 80px 80px;
 }
 
 .cell {
@@ -32,7 +112,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  height: 100px;
+  height: 90px;
   align-items: flex-end;
 }
 
@@ -42,4 +122,11 @@
 
 .zero {
   grid-column: span 2;
+}
+
+/* quote page */
+
+.quote {
+  position: absolute;
+  top: 50%;
 }
