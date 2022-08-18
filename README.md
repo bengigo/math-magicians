@@ -3,10 +3,15 @@
 # math magicians
 
 > A single page application for math-lovers. You can find a simple calculator and random math quotes in this page.
+
 ## Built With
 
 - React
 - CSS3
+
+## Live Demo
+
+https://bengigo-math-magicians.netlify.app/
 
 ## Getting Started
 
